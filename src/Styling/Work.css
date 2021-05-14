@@ -1,0 +1,58 @@
+.work {
+  background: rgb(255,255,255);
+  background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(148,187,233,1) 100%);
+  padding: 2rem;
+}
+
+.work > h1 {
+  text-align: center;
+}
+
+.work > ul {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 1rem;
+}
+
+.work > ul > a {
+  text-decoration: none;
+}
+
+.work > ul > a:visited {
+  color: inherit;
+}
+
+.work > ul > a:hover {
+  color: #f46565;
+}
+
+.work > ul > a > li {
+  list-style-type: none;
+  text-align: center;
+}
+
+.work > ul > a > li > figure {
+  max-height: 320px;
+  border-top-left-radius: .5rem;
+  border-top-right-radius: .5rem;
+  position: relative;
+}
+
+.work > ul > a > li > figure > img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+  height: 250px;
+}
+
+.work > ul > a > li > h3 {
+  padding: .75rem;
+  font-size: 1.25rem;
+}
+
+.work > ul > a > li > p {
+  font-size: 1rem;
+  line-height: 1.5;
+  padding: 1rem .75rem;
+}

@@ -1,0 +1,136 @@
+header {
+  position: relative;
+  min-height: 100vh;
+  background-color: #2916be;
+}
+
+.headerName {
+  position: absolute;
+  top: 10%;
+  right: 5%;
+  color: #fff;
+  text-align: left;
+  font-style: normal;
+  white-space: pre-line;
+  display: block;
+  font-size: 32px;
+  letter-spacing: 10px;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nav {
+  transition: all .7s ease-in;
+  text-align: center;
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  font-family: sans-serif;
+}
+
+.nav ul {
+  list-style-type: none;
+}
+
+.nav li {
+  padding: 5px;
+  padding-right: 15px;
+  cursor: pointer;
+}
+
+.nav li a {
+  color: #fff;
+  font-size: 32px;
+}
+
+.nav li a:hover {
+  color: #f46565;
+}
+
+.textGraphic {
+  position: absolute;
+  width: 60%;
+  height: auto;
+  top: 10%;
+}
+
+.socialMenu {
+  position: relative;
+}
+
+.socialMenu span {
+  position: fixed;
+  bottom: 10%;
+  left: 5%;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.socialMenu span a {
+  width: 100%;
+  height: 100%;
+}
+
+.socialMenu span img {
+  width: 70px;
+  height: 70px;
+}
+
+.socialMenu span.hidden {
+  visibility: hidden;
+}
+
+.socialMenu span:nth-child(1).show {
+  transform: translateY(-100px);
+}
+.socialMenu span:nth-child(2).show {
+  transform: translateY(-200px);
+}
+.socialMenu span:nth-child(3).show {
+  transform: translateY(-300px);
+}
+.socialMenu span:nth-child(4).show {
+  transform: translateY(-400px);
+}
+
+.scrollIcon {
+  position: absolute;
+  bottom: 10%;
+  left: 35%;
+  width: 30%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.scrolled {
+  opacity: 0.3;
+}
+
+.scrollIcon img {
+  height: 70px;
+  width: 50%;
+  animation-name: scrollText;
+  animation-duration: 1.6s;
+  animation-timing-function: ease-out;
+  animation-delay: .8s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+}
+
+.scrollIcon p {
+  color: #fff;
+  white-space: nowrap;
+  text-align: center;
+  font-size: 0.9em;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+
+}
+
+@keyframes scrollText {
+  0% {transform: translateY(0px);}
+  50% {transform: translateY(10px);}
+  100% {transform: translateY(0px);}
+}
