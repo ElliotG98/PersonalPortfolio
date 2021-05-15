@@ -78,6 +78,11 @@ header {
   height: 70px;
 }
 
+.socialMenu span img:hover {
+  width: 90px;
+  height: 90px;
+}
+
 .socialMenu span.hidden {
   visibility: hidden;
 }
@@ -127,6 +132,10 @@ header {
   font-weight: bold;
   -webkit-font-smoothing: antialiased;
 
+}
+
+.scrollIcon img:hover {
+  opacity: 0.3;
 }
 
 @keyframes scrollText {

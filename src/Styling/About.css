@@ -11,6 +11,10 @@
   margin-right: auto;
 }
 
+.container h3 {
+  color: #2916be;
+}
+
 .container > figure{
   width: 100%;
   margin: 0;
@@ -19,6 +23,8 @@
 .container > figure > img {
   width: 200px;
   height: 200px;
+  border-radius: 50%;
+  border: 2px solid #fff;
 }
 
 .container > ul {
