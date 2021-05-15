@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/PersonalPortfolio/static/css/main.9f6bc799.chunk.css",
+    "main.css": "/PersonalPortfolio/static/css/main.173f63a0.chunk.css",
     "main.js": "/PersonalPortfolio/static/js/main.087c2d55.chunk.js",
     "main.js.map": "/PersonalPortfolio/static/js/main.087c2d55.chunk.js.map",
     "runtime-main.js": "/PersonalPortfolio/static/js/runtime-main.a815ce0a.js",
@@ -8,7 +8,7 @@
     "static/js/2.72558f8f.chunk.js": "/PersonalPortfolio/static/js/2.72558f8f.chunk.js",
     "static/js/2.72558f8f.chunk.js.map": "/PersonalPortfolio/static/js/2.72558f8f.chunk.js.map",
     "index.html": "/PersonalPortfolio/index.html",
-    "static/css/main.9f6bc799.chunk.css.map": "/PersonalPortfolio/static/css/main.9f6bc799.chunk.css.map",
+    "static/css/main.173f63a0.chunk.css.map": "/PersonalPortfolio/static/css/main.173f63a0.chunk.css.map",
     "static/js/2.72558f8f.chunk.js.LICENSE.txt": "/PersonalPortfolio/static/js/2.72558f8f.chunk.js.LICENSE.txt",
     "static/media/EmailIcon.86b5adc6.svg": "/PersonalPortfolio/static/media/EmailIcon.86b5adc6.svg",
     "static/media/GithubIcon.0f89d217.svg": "/PersonalPortfolio/static/media/GithubIcon.0f89d217.svg",
@@ -27,7 +27,7 @@
   "entrypoints": [
     "static/js/runtime-main.a815ce0a.js",
     "static/js/2.72558f8f.chunk.js",
-    "static/css/main.9f6bc799.chunk.css",
+    "static/css/main.173f63a0.chunk.css",
     "static/js/main.087c2d55.chunk.js"
   ]
 }
